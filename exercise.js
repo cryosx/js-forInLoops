@@ -117,4 +117,16 @@ console.log(probFive(donutBox));
 /*@param {Object}
 @return {Object}*/
 
+function probSix (obj) {
+	if (obj.occupation === undefined) {
+		console.log("No");
+	} else {
+		console.log("Yes");
+
+	}
+	return obj;
+}
+
+console.log(probSix(donutBox));
+
 
