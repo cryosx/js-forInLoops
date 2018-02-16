@@ -80,7 +80,15 @@ console.log(probThree(donutBox));
 /*@param {Object}
 @return {Array}*/
 
+function probFour (obj) {
+	var result = [];
+	for (var prop in obj) {
+		result.push(obj[prop]);
+	}
+	return result;
+}
 
+console.log(probFour(donutBox));
 
 /*5. Create a function that will take in an object and will return the number of properties (key -value pairs) in the object. Use the legend object above.
 
