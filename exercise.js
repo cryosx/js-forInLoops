@@ -36,14 +36,14 @@ var donutBox = {
 	taste: "fabulous"
 };
 
-function funcOne (obj) {
+function probOne (obj) {
 	for (var prop in obj) {
 		console.log(prop);
 	}
 	return obj;
 }
 
-funcOne(donutBox);
+probOne(donutBox);
 
 
 /*2.  Create a function that will take in an object and loop through the properties of that object.
@@ -53,6 +53,14 @@ Console.log the values of the object. Use the donutBox object from the previous 
 @return {Object}*/
 
 
+function probTwo (obj) {
+	for (var prop in obj) {
+		console.log(obj[prop]);
+	}
+	return obj;
+}
+
+probTwo(donutBox);
 
 /*3. Create a function that will take in an object and will delete the taste property from the donutBox object above.*/
 
